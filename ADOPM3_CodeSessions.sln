@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Enumerable", "01_Enumerable\01_Enumerable.csproj", "{A93F005B-97B9-47C1-9223-56A43387808B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDD6E4F3-3B22-4EB8-ADDC-922DF06297E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD6E4F3-3B22-4EB8-ADDC-922DF06297E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD6E4F3-3B22-4EB8-ADDC-922DF06297E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD6E4F3-3B22-4EB8-ADDC-922DF06297E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93F005B-97B9-47C1-9223-56A43387808B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93F005B-97B9-47C1-9223-56A43387808B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93F005B-97B9-47C1-9223-56A43387808B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93F005B-97B9-47C1-9223-56A43387808B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

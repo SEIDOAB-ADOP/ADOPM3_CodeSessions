@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Seido.Utilities.SeedGenerator</id>
+    <version>1.0.4</version>
+    <authors>Martin Lenart</authors>
+    <description>A random seeder for C# .NET 8.0 projects and above</description>
+    <repository type="git" commit="1b79187593582f1d8300c46be21ec0511754d98f" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/Martin/Development/DevProjects/nugets/seedGenerator/SeedGenerator/bin/Release/net8.0/SeedGenerator.dll" target="lib/net8.0/SeedGenerator.dll" />
+  </files>
+</package>
