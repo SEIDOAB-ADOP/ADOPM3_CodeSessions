@@ -9,6 +9,5 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\SeedGenerator\SeedGenerator.csproj" />
-    <ProjectReference Include="..\ConsoleInput\ConsoleInput.csproj" />
   </ItemGroup>
 </Project>
