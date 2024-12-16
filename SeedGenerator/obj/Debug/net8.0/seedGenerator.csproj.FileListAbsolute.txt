@@ -72,3 +72,4 @@
 /Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/SeedGenerator/obj/Debug/net8.0/refint/SeedGenerator.dll
 /Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/SeedGenerator/obj/Debug/net8.0/SeedGenerator.pdb
 /Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/SeedGenerator/obj/Debug/net8.0/ref/SeedGenerator.dll
+/Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/SeedGenerator/obj/Debug/net8.0/SeedGenerator.sourcelink.json

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Enumerable", "01_Enumera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedGenerator", "SeedGenerator\SeedGenerator.csproj", "{21B42EC8-6583-4A59-B646-8DDC402893C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Tasks", "02_Tasks\02_Tasks.csproj", "{BB0D7CDC-1D88-49EF-BC2D-A38A0F0742CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,5 +30,9 @@ Global
 		{21B42EC8-6583-4A59-B646-8DDC402893C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21B42EC8-6583-4A59-B646-8DDC402893C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21B42EC8-6583-4A59-B646-8DDC402893C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0D7CDC-1D88-49EF-BC2D-A38A0F0742CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0D7CDC-1D88-49EF-BC2D-A38A0F0742CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0D7CDC-1D88-49EF-BC2D-A38A0F0742CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0D7CDC-1D88-49EF-BC2D-A38A0F0742CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
