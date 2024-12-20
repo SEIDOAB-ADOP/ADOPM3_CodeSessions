@@ -8,7 +8,7 @@ namespace _03_await // Note: actual namespace depends on the project name.
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
             var seeder = new SeedGenerator();
@@ -17,10 +17,15 @@ namespace _03_await // Note: actual namespace depends on the project name.
             try
             {
                 tasks.Add(WriteNamesAsync(seeder, 5));
-                tasks.Add(WriteLatinAsync(seeder, 10));
-                tasks.Add(WriteMusicAsync(seeder, 20));
+                await tasks[0];
 
-                Task.WaitAll(tasks[0], tasks[1], tasks[2]);
+                tasks.Add(WriteLatinAsync(seeder, 10));
+                await tasks[1];
+
+                tasks.Add(WriteMusicAsync(seeder, 20));
+                await tasks[2];
+
+                //await Task.WhenAll(tasks[0], tasks[1], tasks[2]);
                 foreach (var item in tasks)
                 {
                     Console.WriteLine($"\ntask result: {item.Result}");
