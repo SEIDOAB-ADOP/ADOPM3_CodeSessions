@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K6b69aH7P7ZZ82qcDCa17GGXP6wlFYUpg7dGQL7BPFY3Hn3nf25dc3zwi5+nDZdHz8tnAJpB9s6mxDAcyirZBw==",
+  "dgSpecHash": "m4PF3ypav6k=",
   "success": true,
-  "projectFilePath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/01_Enumerable/01_Enumerable.csproj",
+  "projectFilePath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2025/CSharp Part/Module3/ADOPM3_CodeSessions/01_Enumerable/01_Enumerable.csproj",
   "expectedPackageFiles": [
     "/Users/Martin/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.10/microsoft.aspnetcore.jsonpatch.8.0.10.nupkg.sha512",
     "/Users/Martin/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/8.0.10/microsoft.aspnetcore.mvc.newtonsoftjson.8.0.10.nupkg.sha512",

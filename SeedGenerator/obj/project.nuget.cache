@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cwC1mTH6qcdb+GY1pT4sLPOnE8wATMtTUP13O53flj8e45+IbROPud2MqAK2ZLSR9N2pO52Jpfn/90BUtN0JJQ==",
+  "dgSpecHash": "HLMkKFAZgqI=",
   "success": true,
-  "projectFilePath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/SeedGenerator/SeedGenerator.csproj",
+  "projectFilePath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2025/CSharp Part/Module3/ADOPM3_CodeSessions/SeedGenerator/SeedGenerator.csproj",
   "expectedPackageFiles": [
     "/Users/Martin/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.10/microsoft.aspnetcore.jsonpatch.8.0.10.nupkg.sha512",
     "/Users/Martin/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/8.0.10/microsoft.aspnetcore.mvc.newtonsoftjson.8.0.10.nupkg.sha512",

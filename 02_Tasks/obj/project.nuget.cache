@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "za9L3xf8SnCJ1MjXbMSX0oiwApu/FtK50aPM3ma4l5DPcCr+xAfb/I15AcPRJKxcKolKvUHQUw+E9+wLNQCNbA==",
+  "dgSpecHash": "ieL9Tg2QECc=",
   "success": true,
-  "projectFilePath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/02_Tasks/02_Tasks.csproj",
+  "projectFilePath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2025/CSharp Part/Module3/ADOPM3_CodeSessions/02_Tasks/02_Tasks.csproj",
   "expectedPackageFiles": [
     "/Users/Martin/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.10/microsoft.aspnetcore.jsonpatch.8.0.10.nupkg.sha512",
     "/Users/Martin/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/8.0.10/microsoft.aspnetcore.mvc.newtonsoftjson.8.0.10.nupkg.sha512",

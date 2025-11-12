@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net9.0": {
       "Microsoft.AspNetCore.JsonPatch/8.0.10": {
         "type": "package",
         "dependencies": {
@@ -80,7 +80,7 @@
       },
       "Seido.Utilities.SeedGenerator/1.0.6": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.10"
         },
@@ -255,7 +255,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net9.0": [
       "Seido.Utilities.SeedGenerator >= 1.0.6"
     ]
   },
@@ -265,28 +265,28 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/01_Enumerable/01_Enumerable.csproj",
+      "projectUniqueName": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2025/CSharp Part/Module3/ADOPM3_CodeSessions/01_Enumerable/01_Enumerable.csproj",
       "projectName": "01_Enumerable",
-      "projectPath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/01_Enumerable/01_Enumerable.csproj",
+      "projectPath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2025/CSharp Part/Module3/ADOPM3_CodeSessions/01_Enumerable/01_Enumerable.csproj",
       "packagesPath": "/Users/Martin/.nuget/packages/",
-      "outputPath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/01_Enumerable/obj/",
+      "outputPath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2025/CSharp Part/Module3/ADOPM3_CodeSessions/01_Enumerable/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Martin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net9.0"
       ],
       "sources": {
         "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/SeedGenerator/SeedGenerator.csproj": {
-              "projectPath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2024/CSharp Part/Module3/ADOPM3_CodeSessions/SeedGenerator/SeedGenerator.csproj"
+            "/Users/Martin/Development/projects/Advanced_OOP_Nov_2025/CSharp Part/Module3/ADOPM3_CodeSessions/SeedGenerator/SeedGenerator.csproj": {
+              "projectPath": "/Users/Martin/Development/projects/Advanced_OOP_Nov_2025/CSharp Part/Module3/ADOPM3_CodeSessions/SeedGenerator/SeedGenerator.csproj"
             }
           }
         }
@@ -300,11 +300,12 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "imports": [
           "net461",
           "net462",
@@ -321,7 +322,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
