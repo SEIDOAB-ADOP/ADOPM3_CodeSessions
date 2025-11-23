@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="01_Enumerable\01_Enumerable.csproj" />
+  <Project Path="SeedGenerator\SeedGenerator.csproj" />
+  <Project Path="02_Tasks\02_Tasks.csproj" />
+  <Project Path="03_await\03_await.csproj" />
+</Solution>
