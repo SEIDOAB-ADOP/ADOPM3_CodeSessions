@@ -3,13 +3,20 @@
 namespace Models.Music;
 
 public enum MusicGenre {Rock, Blues, Jazz, Metal}
-public class MusicGroup : ISeed<MusicGroup>
+public class MusicGroup : ISeed<MusicGroup>, IEquatable<MusicGroup>
 {
     public virtual Guid MusicGroupId { get; set; }
     public virtual string Name { get; set; }
     public virtual int EstablishedYear { get; set; }
 
     public virtual MusicGenre Genre { get; set; }
+    public bool Equals(MusicGroup other) => other != null && (Name, EstablishedYear, Genre) == 
+        (other.Name, other.EstablishedYear, other.Genre);
+    
+    public override int GetHashCode() => (Name, EstablishedYear, Genre).GetHashCode();
+    public override bool Equals(object obj) => Equals(obj as MusicGroup);
+
+    public override string ToString() =>  $"{Name} ({EstablishedYear}) - {Genre}";
  
     #region Constructors
     public MusicGroup(){}
@@ -34,6 +41,8 @@ public class MusicGroup : ISeed<MusicGroup>
         Genre = seedGenerator.FromEnum<MusicGenre>();
         return this;
     }
+
+
     #endregion
 }
 
