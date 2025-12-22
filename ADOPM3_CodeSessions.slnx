@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="01_Enumerable\01_Enumerable.csproj" />
   <Project Path="04_Collections/04_Collections.csproj" />
+  <Project Path="05_Linq/05_Linq.csproj" />
   <Project Path="SeedGenerator\SeedGenerator.csproj" />
   <Project Path="02_Tasks\02_Tasks.csproj" />
   <Project Path="03_await\03_await.csproj" />
