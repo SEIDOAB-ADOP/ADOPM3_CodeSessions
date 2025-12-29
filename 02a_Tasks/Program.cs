@@ -1,24 +1,41 @@
 ﻿using System;
-using System.Threading.Tasks;
 
 namespace _02a_Tasks 
 {
     internal class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
 
-            var t1 = Task.Run(() => SayHello());
-            var t2 = Task.Run(() => SayGoodbye());
-                        
-            await Task.WhenAll(t1, t2);
+            var sum = SayGreetingsAsync("Greetings").Result;
+            Console.WriteLine($"Sum from SayGreetingsAsync: {sum}");
 
-            await Task.Run(() => SayGoodEvening());
+            var t1 = SayHelloAsync();
+            var t2 = SayGoodByeAsync();
+            
+            Task.WaitAll(t1, t2);
+
+            var t3 = SayGoodEveningAsync();
+            Task.WaitAll(t1, t2, t3);
 
         }
 
+        static Task<int> SayGreetingsAsync(string greetings) => Task.Run(() => SayGreetings(greetings));
+        static int SayGreetings(string greetings)
+        {
+            var sum = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{greetings} from SayGreetings method {i + 1}!");
+                Task.Delay(1000).Wait();
+                sum += i;
+            }
+            return sum;
+        }
 
+
+        static Task SayHelloAsync() => Task.Run(() => SayHello());
         static void SayHello()
         {
             for (int i = 0; i < 5; i++)
@@ -27,6 +44,9 @@ namespace _02a_Tasks
                 Task.Delay(1000).Wait();
             }
         }
+
+
+        static Task SayGoodByeAsync() => Task.Run(() => SayGoodbye());
         static void SayGoodbye()
         {
             for (int i = 0; i < 5; i++)
@@ -36,6 +56,7 @@ namespace _02a_Tasks
             }
         }
         
+        static Task SayGoodEveningAsync() => Task.Run(() => SayGoodEvening());
         static void SayGoodEvening()
         {   
             for (int i = 0; i < 5; i++)
